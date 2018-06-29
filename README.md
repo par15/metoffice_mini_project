@@ -64,5 +64,12 @@ Read regional test data from the mogreps file
 
 ## Notebook with data analysis and modelling
 
+### our_pretty_notebook.ipnyb
+
+Includes:
+
+* data analysis and visualisation;
+* simple linear regression model;
+* more sophisticated machine learning models.
 
 
