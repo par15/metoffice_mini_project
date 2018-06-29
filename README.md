@@ -1,6 +1,6 @@
 # README
 
-## Code for reading and condensing mogreps data
+## Codes for reading and condensing mogreps data
 
 Need to download necessary mogreps data before running.
 
@@ -61,5 +61,8 @@ Write regionally averaged test data to a netcdf file
 * read_regional_test_data
 
 Read regional test data from the mogreps file
+
+## Notebook with data analysis and modelling
+
 
 
