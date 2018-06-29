@@ -2,13 +2,25 @@
 
 ## Code for reading and condensing mogreps data
 
+Need to download necessary mogreps data before running.
+
 ### write_local_data.py
 
 Master python source code for writing data for a single grid point to netcdf file. It reads air temperature, relative humidity, surface air pressure and wind speed from the mogreps data for a specified time of day each day for a month, calculates ensemble averages for a 'ensemble_size' realisations, then writes to file.
 
+OUTPUT FILES:
+
+* ensemble_means_yyyymm_latddd_londdd.nc - contains the ensemble means for a grid point for the four different variables
+* test_data_yyyymm_latddd_londdd.nc - contains the remaining test data for a grid point for the four different variables
+
 ### write_regional_data.py
 
 Master python source code for writing data averaged over a specified region to netcdf file. It reads air temperature, relative humidity, surface air pressure and wind speed from the mogreps data for a specified time of day each day for a month, calculates ensemble averages for a 'ensemble_size' realisations, then writes to file.
+
+OUTPUT FILES:
+
+* ensemble_regional_means_yyyymm_latddd_londdd.nc - contains the ensemble means for a grid point for the four different variables
+* regional_test_data_yyyymm_latddd_londdd.nc - contains the remaining test data for a grid point for the four different variables
 
 ### ensemble_data.py
 
